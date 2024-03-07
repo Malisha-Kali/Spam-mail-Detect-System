@@ -38,13 +38,13 @@
                     </div>
 
                     <div class="coment-bottom bg-white p-2 px-4">
-                        {% for review in data.reviews %}
+                        {% for mail in data.mails %}
                         <hr/>
                           <div
                               class="commented-section mt-2">
                               <div class="d-flex flex-row align-items-center commented-user">
                                   </div>
-                                  <div class="text-nowrap bd-highlight"><span>{{ review }}</span></div>
+                                  <div class="text-nowrap bd-highlight"><span>{{ mail }}</span></div>
                                   <hr/>
                         {% endfor %}
                       </div>
